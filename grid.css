@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 'side main main main';
+    margin-bottom: 100px;
+  }
+  .article-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .grid-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .grid-container li a {
+    display: block;
+    color: #303030;
+    text-decoration: none;
+    width: 200px;
+  }
+  .grid-container li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .kata > p:first-child::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+  }
